@@ -28,3 +28,4 @@ Visit [Frontend Mentor](https://frontendmentor.io) for website challenges
 [EP01To03](https://github.com/bradtraversy/tailwind-sandbox)
 [EP04-25_simple-tailwind-starter](https://github.com/bradtraversy/tailwind-course-projects/tree/main/simple-tailwind-starter)
 [EP04-27_webpack-tailwind-starter](https://github.com/bradtraversy/tailwind-course-projects/tree/main/webpack-tailwind-starter)
+[EP05_mini-projects](https://github.com/bradtraversy/tailwind-course-projects/tree/main/mini-projects)
