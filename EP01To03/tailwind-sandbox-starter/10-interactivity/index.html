@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity (互動性)</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <h1 class="text-xl text-red-600 font-bold">
+      Hover State Styling (懸停狀態樣式)
+    </h1>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500"
+    >
+      Submit
+    </button>
+    <br />
+
+    <!-- Focus State Styling -->
+    <h1 class="text-xl text-red-600 font-bold">
+      Focus State Styling (焦點狀態樣式)
+    </h1>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500"
+    >
+      Submit
+    </button>
+    <br />
+
+    <!-- Active State Styling -->
+    <h1 class="text-xl text-red-600 font-bold">
+      Active State Styling (活動狀態樣式)
+    </h1>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500"
+    >
+      Submit
+    </button>
+    <br />
+
+    <!-- Styling based on parent state -->
+    <h1 class="text-xl text-red-600 font-bold">
+      Styling based on parent state (基於父狀態的樣式)
+    </h1>
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="hover:text-white">Card Title</h3>
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-red-500">This is the card text</p>
+    </a>
+    <br />
+
+    <!-- Pseudo Classes -->
+    <h1 class="text-xl text-red-600 font-bold">Pseudo Classes (偽類)</h1>
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 1
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 2
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 3
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 4
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 5
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 6
+      </li>
+    </ul>
+    <br />
+
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <h1 class="text-xl text-red-600 font-bold">Appearance (外貌)</h1>
+    <select>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <br />
+
+    <!-- Cursor -->
+    <h1 class="text-xl text-red-600 font-bold">Cursor (光標)</h1>
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-wait">
+      Submit
+    </button>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed"
+    >
+      Submit
+    </button>
+    <br />
+
+    <!-- Resize -->
+    <h1 class="text-xl text-red-600 font-bold">Resize (調整大小)</h1>
+    <textarea class="border border-black rounded resize"></textarea>
+    <br />
+
+    <!-- User Select -->
+    <h1 class="text-xl text-red-600 font-bold">User Select (用戶選擇)</h1>
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
+    <br />
+
+    <!-- Smooth Scroll Example -->
+    <h1 class="text-xl text-red-600 font-bold">
+      Smooth Scroll Example (平滑滾動示例)
+    </h1>
+    <a href="#item" class="block my-6">Go To Item</a>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus
+      nihil amet temporibus reiciendis ipsa dicta! Eum magnam earum non
+      excepturi repudiandae neque dicta at, ea sint. Doloribus ratione eaque
+      nulla obcaecati fuga, excepturi voluptates necessitatibus similique,
+      commodi vitae sed, quia distinctio ad ipsam. Vel totam cumque nobis vero
+      error obcaecati atque delectus eveniet a unde maiores ducimus culpa
+      assumenda, ullam qui iure modi sit blanditiis asperiores impedit minima
+      nemo aut in porro! Consequuntur, incidunt adipisci vel laboriosam
+      voluptatem eum porro error fugit sed explicabo minima architecto atque
+      quia magnam voluptas illum deleniti labore optio. Natus harum beatae
+      provident voluptate suscipit nostrum ipsam sapiente iste, assumenda quas
+      sed tenetur perspiciatis vero rerum recusandae cupiditate quidem at. Rerum
+      illo tempora molestiae consequatur reprehenderit suscipit corrupti amet.
+      Labore molestias illum quae blanditiis nam sapiente sequi obcaecati
+      assumenda a deleniti eos, sint ad veniam cumque mollitia fugiat quia
+      consequatur reiciendis optio dicta itaque placeat. Facilis consectetur,
+      asperiores aperiam tempora perferendis ab minima! Non neque aliquam
+      expedita a cupiditate officiis veniam, quam distinctio rerum? Illo soluta
+      voluptatum quae sint facilis vitae, assumenda quibusdam. Unde maiores
+      natus, blanditiis tempora at similique, esse totam quasi modi veniam
+      laboriosam. Est, sed tenetur. Minus nesciunt, iure accusamus quo quisquam
+      reiciendis vitae eveniet quas. Deleniti odit veritatis, molestias minus
+      sapiente minima cupiditate quod earum reiciendis eaque laudantium. Nemo
+      perferendis debitis quas soluta laboriosam dolorem ipsam itaque, quisquam
+      quo quod voluptate ab labore dolores, possimus qui culpa ipsum officia sed
+      porro. Ea nisi ut nemo labore a. Aspernatur quasi eius tempora sit omnis
+      impedit placeat architecto! Et sequi laboriosam quas nisi, ex maxime a
+      nobis exercitationem perspiciatis? Excepturi voluptate maxime debitis, eum
+      temporibus totam ad provident veniam repellat nostrum obcaecati placeat
+      repudiandae, omnis reiciendis saepe veritatis laudantium illum officiis
+      facilis non dicta quisquam laborum. Cumque, assumenda, fugit, cupiditate
+      labore eveniet nobis quis impedit temporibus veniam reprehenderit sint
+      ullam velit aliquid cum blanditiis saepe nesciunt veritatis autem
+      architecto necessitatibus. Sed nesciunt asperiores, ab consectetur minus
+      aspernatur facilis dignissimos expedita esse, explicabo error, fuga quam
+      sunt tempore dolorum qui provident inventore tempora eligendi vero? Sequi
+      expedita, reprehenderit deleniti repellat vitae autem quisquam possimus
+      corporis animi voluptas illum molestias suscipit non iure nobis
+      perspiciatis nesciunt officia consequatur deserunt quis facere tempora.
+      Quisquam iste voluptate adipisci et placeat aspernatur iure beatae dolorum
+      praesentium dolore, blanditiis in alias assumenda natus deserunt numquam
+      sit nostrum odio velit, commodi repudiandae eveniet. Beatae optio ea
+      veritatis officia quasi.
+    </p>
+    <div id="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ad aliquam
+      laboriosam voluptate odit at illum quaerat quos deleniti, atque ipsam ab
+      non vel eveniet odio in nobis? Explicabo ipsa optio consequatur suscipit
+      nostrum recusandae. Voluptas, voluptatum velit quae quibusdam eos nam enim
+      porro minima alias dolorem, molestiae maiores. Consequatur?
+    </div>
+    <br />
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
