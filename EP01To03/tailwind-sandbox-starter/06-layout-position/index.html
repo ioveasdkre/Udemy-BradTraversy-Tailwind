@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Layout & Position (布局和位置<)/title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <h1 class="text-xl text-red-600 font-bold">Positioning</h1>
+    <!-- 相對位置 -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>relative w-1/2 h-12 bg-red-200</p>
+      <!-- 絕對位置 -->
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>absolute bottom-0 right-0 bg-red-500</p>
+      </div>
+    </div>
+    <br />
+
+    <!-- Top left corner -->
+    <h1 class="text-xl text-red-600 font-bold">Top left corner</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Top right corner -->
+    <h1 class="text-xl text-red-600 font-bold">Top right corner</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Bottom left corner -->
+    <h1 class="text-xl text-red-600 font-bold">Bottom left corner</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Bottom right corner -->
+    <h1 class="text-xl text-red-600 font-bold">Bottom right corner</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Span top edge -->
+    <h1 class="text-xl text-red-600 font-bold">Span top edge</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Span left edge -->
+    <h1 class="text-xl text-red-600 font-bold">Span left edge</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Span right edge -->
+    <h1 class="text-xl text-red-600 font-bold">Span right edge</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Span bottom edge -->
+    <h1 class="text-xl text-red-600 font-bold">Span bottom edge</h1>
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+    <!-- Display Classes -->
+    <h1 class="text-xl text-red-600 font-bold">Display Classes</h1>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      <span class="inline font-bold">This is inline</span> Magnam iste non
+      pariatur, temporibus molestias id ab saepe nulla ipsa officia quo dolor
+      sit quam magni,
+      <span class="inline-block font-bold">This is inline-block</span> qui earum
+      commodi soluta doloribus. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. <span class="block font-bold">block</span> Aperiam
+      itaque error corrupti eius voluptatibus debitis dolorem,
+      <span class="hidden font-bold">This is hidden</span> placeat mollitia enim
+      temporibus quod ipsa dolorum hic! Deserunt reiciendis ab ratione quisquam
+      esse.
+    </div>
+    <br />
+
+    <!-- Z-Index -->
+    <h1 class="text-xl text-red-600 font-bold">Z-Index</h1>
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+    </div>
+    <br />
+
+    <!-- Floats -->
+    <h1 class="text-xl text-red-600 font-bold">Floats</h1>
+    <div class="w-1/2">
+      <img
+        class="h-48 w-48 float-left m-4"
+        src="../assets/img/img1.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iure
+        commodi nulla at facere nobis eaque adipisci molestias. Facere quod
+        ipsam, tempore quas vero commodi tempora dolore aut accusamus fugiat?
+      </p>
+    </div>
+    <br />
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
